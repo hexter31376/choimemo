@@ -28,7 +28,7 @@ Request
 
 ```json
 {
-  "title": "예시 제목"
+  "title": "예시 제목",
   "content": "예시 글 컨텐츠"
 }
 ```
