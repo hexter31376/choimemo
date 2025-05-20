@@ -18,3 +18,25 @@ http 프로토콜을 활용한 테이터 송수신이 가능합니다
 | 메모 읽기 | GET | /memos/{id} |
 | 메모 수정 | PUT | /memos/{id} |
 | 메모 삭제 | DELETE | /memos/{id} |
+  
+Request
+---
+
+```json
+{
+  "title": "예시 제목"
+  "content": "예시 글 컨텐츠"
+}
+```
+
+Response
+---
+```json
+{
+    "id": 1,
+    "title": "예시 글",
+    "content": "첫번째 글입니다 여기에는 데이터가 담겨있지요",
+    "createdAt": "2025-05-20T15:42:56.35953",
+    "updatedAt": "2025-05-20T15:42:56.35953"
+}
+```
