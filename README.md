@@ -13,8 +13,8 @@ http 프로토콜을 활용한 테이터 송수신이 가능합니다
 
 | 기능 | 메소드 | URL |
 | --- | --- | --- |
-| 전체 메모 리스트 조회 | GET | /memo |
-| 메모 작성 | POST | /memo |
-| 메모 읽기 | GET | /memo/{id} |
-| 메모 수정 | PUT | /memo/{id} |
-| 메모 삭제 | DELETE | /memo/{id} |
+| 전체 메모 리스트 조회 | GET | /memos |
+| 메모 작성 | POST | /memos |
+| 메모 읽기 | GET | /memos/{id} |
+| 메모 수정 | PUT | /memos/{id} |
+| 메모 삭제 | DELETE | /memos/{id} |
